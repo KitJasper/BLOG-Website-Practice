@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<users>
+  <user>
+    <id>1</id>
+    <uname>asda</uname>
+    <password>asd</password>
+    <address>otin</address>
+  </user>
+  <user>
+    <id>2</id>
+    <uname>asd</uname>
+    <password>asd</password>
+    <address>asd</address>
+  </user>
+  <user>
+    <id>1</id>
+    <uname>MJ</uname>
+    <password>hakdog</password>
+    <address>otin</address>
+  </user>
+  <user>
+    <id>120</id>
+    <uname>henry</uname>
+    <password>henry</password>
+    <address>labogon</address>
+  </user>
+  <user>
+    <id>120</id>
+    <uname>haha</uname>
+    <password>hehe</password>
+    <address>here</address>
+  </user>
+</users>

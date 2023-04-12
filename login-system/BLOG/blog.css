@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100&display=swap');
+
+body {
+    background: #ffe4c8;
+}
+
+/*-----------------------Header-----------------------*/
+.header {
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    padding: 3.5% 10.4% 0% 9.4%;
+    margin-bottom: 2%;
+    background: url('read.jpg');
+    background-size: cover;
+}
+
+.welcome {
+    margin: auto;
+    letter-spacing: 0.06em;
+    margin-bottom: 2%;
+    color: black;
+    font-size: x-large;
+}
+
+.button {
+    padding: 1%;
+    width: 15%;
+    font-size: medium;
+    color: black;
+    border: 1px solid black;
+    text-transform: uppercase;
+    background: transparent;
+    cursor: pointer;
+    font-weight: bold;
+    transition: .2s ease-in-out;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+}
+
+/*-----------------------Body of BLog-----------------------*/
+.body {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+.tile {
+    padding: 2% 2% 4% 2%;
+    background: #ffffff;
+    color: black;
+    border-top: 3px solid #c2a880;
+    transition: .2s;
+}
+.tile img:hover{
+    cursor: pointer;
+}
+
+.text {
+    padding: 2%;
+    text-align: justify;
+    font-size: 15px;
+    margin: 0% 0% 2% 0%;
+    letter-spacing: 0.03em;
+}
+
+/*------------------------left------------------------*/
+.left {
+    float: left;
+    width: 60%;
+    margin-left: 9.5%;
+    transition: transform .2;
+}
+
+.left .tile {
+    margin-bottom: 3%;
+}
+
+.more {
+    width: 20px;
+    border: 1px solid black;
+    padding: 2%;
+    margin: 2%;
+    text-decoration: none;
+    color: black;
+    transition: .3s ease-in-out;
+}
+
+.more:hover {
+    background-color: black;
+    color: white;
+}
+
+img {
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+/*------------------------right------------------------*/
+.right {
+    float: left;
+    width: 20%;
+    padding-left: 1%;
+    margin: 0% 9.5% 2% 0%;
+}
+
+.right .text {
+    margin-bottom: 5%;
+}
+
+.right .tile {
+    margin-bottom: 10%;
+    padding: 3% 3% 9% 3%;
+}
+
+.right .tile .more {
+    padding: 2.5%;
+}
+
+.right .tile img {
+    margin: 0;
+    width: 100%;
+}
+
+.posts {
+    margin-bottom: .5%;
+    padding: 2%;
+    color: black;
+    transition: .5s;
+}
+.posts:hover{
+    cursor: pointer;
+    transform: scale(110%);
+    background: #ffffff;
+}
+
+.pad {
+    width: 100%;
+    padding: 2%;
+}
+
+.socials {
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.right .tile .socials a {
+    width: 50px;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*---------------for responsiveness---------------*/
+@media screen and (max-width: 800px) {
+
+    .left,
+    .right {
+        width: 100%;
+        padding: 0% 2% 0% 2%;
+        margin: 0%;
+        height: auto;
+    }
+
+    .right .tile {
+        margin-bottom: 2%;
+    }
+}
